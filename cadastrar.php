@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Nova Ordem de Serviço</h1>
+        <h1 class="titulo">Nova Ordem de Serviço</h1>
         <form action="salvar.php" method="POST">
         <!-- vou botar o arquivo do php aqui pra ele jogar la -->
          <br>

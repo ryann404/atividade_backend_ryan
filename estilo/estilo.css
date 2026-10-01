@@ -24,6 +24,7 @@ input, textarea{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 button, .botao{
     margin-top: 10px;
@@ -51,7 +52,3 @@ th {
 /* label{
     margin-left: 90px;
 } */
-.btnEditar{
-    padding: 20px;
-    text-align: ;
-}

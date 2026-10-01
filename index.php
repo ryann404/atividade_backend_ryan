@@ -34,7 +34,8 @@
                 <th>Problemas</th>
                 <th>Data</th>
                 <th>Status</th>
-                <!-- <th>Ações</th>   -->
+                
+                <th>Ações</th>  
                 
             </tr>
 
@@ -56,7 +57,7 @@
                     <td><?php echo $ordem["data_entrada"];?></td>
                     <td><?php echo $ordem["status"];?></td>
                     <td>
-                        <a href='editar.php ? id=<?php echo $ordem["id"];?>' class="btnEditar">Editar</a>
+                        <a href='editar.php ? id=<?php echo $ordem["id"];?>' class="botao">Editar</a>
                         <!-- ele vai acessar o PHP, buscar uma variavel e trazer pro HTML -->
                         <!-- ele passa um valor (da linha que ele está) pro editar.php  -->
                          <!-- tudo depois do "?" é valor que vai ser enviado -->
