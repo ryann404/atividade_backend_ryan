@@ -19,7 +19,8 @@
 <body>
     <div class="container">
 
-        <h1>Ordens de Serviço</h1>
+        <h1 class="titulo">Ordens de Serviço</h1>
+        <br>
 
         <a href="cadastrar.php" class="botao">Nova Ordem</a>
 
@@ -55,12 +56,11 @@
                     <td><?php echo $ordem["data_entrada"];?></td>
                     <td><?php echo $ordem["status"];?></td>
                     <td>
-                        <a href='editar.php ? id=<php echo $ordem["id"];?>'>Editar</a>
+                        <a href='editar.php ? id=<?php echo $ordem["id"];?>' class="btnEditar">Editar</a>
                         <!-- ele vai acessar o PHP, buscar uma variavel e trazer pro HTML -->
                         <!-- ele passa um valor (da linha que ele está) pro editar.php  -->
                          <!-- tudo depois do "?" é valor que vai ser enviado -->
                         <!-- ou seja, se o valor é 5, ele passa a variavel "id = 5" pro "editar.php" -->
-
                     </td>
                     <!-- td = célula -->
 

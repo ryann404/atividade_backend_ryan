@@ -32,7 +32,6 @@
         // reduz a quantidade de sql injection
         "sssss",
         // 5 letra "s" = 5 strings
-
         $cliente,
         $equipamento,
         $problema,
